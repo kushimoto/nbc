@@ -1,2 +1,3 @@
 田んぼの画像:https://publicdomainq.net/rice-field-0043549/
 ひらがなバリデーション:https://hacknote.jp/archives/15201/
+為替API:https://exchangeratesapi.io

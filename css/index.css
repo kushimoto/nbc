@@ -107,9 +107,14 @@ nav {
 	font-size: 20px;
 	font-weight: bold;
 }
+
 .card-content {
 	line-height: 27px;
 	font-size: 18px;
+}
+
+.exchange {
+	cursor: pointer;
 }
 
 .card-icon {
@@ -229,6 +234,14 @@ nav {
 	border-radius: 5px;
 }
 
+.form-textarea {
+	height: 120px;
+	width: 280px;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 5px;
+	resize: none;
+}
 .radiobtn {
 	margin: 0px 20px;
 	height: 30px;
@@ -267,9 +280,25 @@ nav {
 
 .footer {
 	position: relative;
-	height: 70px;
+	height: 60px;
 	width: 100%;
 	margin-top: 50px;
-	padding: 0;
+	padding: 20px 0px;
 	background-color: lightblue;
+}
+
+.contact-link {
+	display: block;
+	height: 10px;
+	width: 150px;
+	margin: 0 auto 10px auto;
+	font-size: 16px;
+	text-align: center;
+}
+
+.copyright {
+	height: 10px;
+	width: 300px;
+	margin: 25px auto 0px auto;
+	text-align: center;
 }

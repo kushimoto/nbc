@@ -29,7 +29,31 @@
 			<div class="card">
 				<span class="card-title">高金利</span>
 				<div class="card-icon"><i class="fas fa-yen-sign"></i></div>
-				<p class="card-content">普通預金金利は22%～</p>
+				<p class="card-content">各種金利は22%～</p>
 			</div>
 		</div>
+		<h4 class="container-title">最近の為替レート</h4>
+		<div class="container">
+			<div class="card">
+				<span class="card-title">米ドル</span>
+				<div class="card-icon"><i class="fas fa-dollar-sign"></i></div>
+				<p id="usd" class="card-content exchange" onclick="printDisplay('usd')">クリックで表示</p>
+			</div>
+			<div class="card">
+				<span class="card-title">ユーロ</span>
+				<div class="card-icon"><i class="fas fa-euro-sign"></i></div>
+				<p id="eur" class="card-content exchange" onclick="printDisplay('eur')">クリックで表示</p>
+			</div>	
+			<div class="card">
+				<span class="card-title">豪ドル</span>
+				<div class="card-icon"><i class="fas fa-dollar-sign"></i></div>
+				<p id="aud" class="card-content exchange" onclick="printDisplay('aud')">クリックで表示</p>
+			</div>
+			<div class="card">
+				<span class="card-title">ポポポポンド</span>
+				<div class="card-icon"><i class="fas fa-pound-sign"></i></div>
+				<p id="gbp" class="card-content exchange" onclick="printDisplay('gbp')">クリックで表示</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/exchangerate.js"></script>
 <?php require_once("./footer.php")?>

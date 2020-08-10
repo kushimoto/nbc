@@ -89,6 +89,12 @@ $(function() {
 				required: true,
 				equalTo: 'input[name=pin]',
 			},
+			email: {
+				required: true,
+			},
+			IncDet: {
+				required: true,
+			},
 		},
 		messages: {
 			family_name: {
@@ -125,6 +131,14 @@ $(function() {
 			pinr: {
 				required: '<span class="warning">確認のため上記と同じ値を入力して下さい</span>',
 				equalTo: '<span class="warning">入力に誤りがあります</span>',
+			},
+			email: {
+				required: '<span class="warning">メールアドレスを入力して下さい</span>',
+				email: '<span class="warning">正しいメールアドレスを入力してください</span>',
+			},
+			InqDet: {
+				required: '<span class="warning">問い合わせ内容を入力して下さい</span>',
+				minlength: '<span class="warning">１０文字以上入力してください</span>',
 			},
 		},
 

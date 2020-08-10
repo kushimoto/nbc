@@ -50,7 +50,7 @@
 				<p id="aud" class="card-content exchange" onclick="printDisplay('aud')">クリックで表示</p>
 			</div>
 			<div class="card">
-				<span class="card-title">ポポポポンド</span>
+				<span class="card-title">ポポポポーンド</span>
 				<div class="card-icon"><i class="fas fa-pound-sign"></i></div>
 				<p id="gbp" class="card-content exchange" onclick="printDisplay('gbp')">クリックで表示</p>
 			</div>

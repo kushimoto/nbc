@@ -1,0 +1,275 @@
+body {
+	background-color: beige;
+	font-family: sans-serif;
+}
+
+.header {
+	position: relative;
+	height: 70px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: lightblue;
+}
+
+.header-logo {
+	height: 50px;
+	padding: 10px 5px 10px 5px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.header-form-logo {
+	height: 50px;
+	padding: 10px 5px 10px 5px;
+	display: inline-block;
+}
+
+nav {
+	position: absolute;
+}
+
+.jumbotron {
+	background: url(../images/nature1.jpg) center;
+	background-size: cover;
+	position: relative;
+	height: 400px;
+}
+
+.jumbotron::before {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.4);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+	z-index: 1;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 70px 0px 70px 0px;
+	height: 260px;
+	width: 70vw;
+}
+
+.top-message {
+	position: relative;
+	padding-top: 42px;
+	width: 100%;
+	z-index: 10;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+}
+
+.container-slideshow {
+	width: 80%;
+	height: auto;
+	margin: 30px auto;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.container-title {
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	margin: 30px auto;
+	text-align: center;
+	font-size: 18px;
+	border: 2px solid deepskyblue;
+	border-radius: 10px;
+	color: deepskyblue;
+}
+
+.card {
+	height: 250px;
+	margin: 0px 10px 10px 10px;
+	text-align: center;
+}
+
+.card-title {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin: 0px 0px 10px 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.card-content {
+	line-height: 27px;
+	font-size: 18px;
+}
+
+.card-icon {
+	font-size: 100px;
+	color: lightseagreen;
+}
+
+.section {
+	width: 80%;
+	margin: 10px;
+	padding: 20px;
+	border: 3px solid skyblue;
+	border-radius: 20px;
+}
+
+.section-title {
+	width: 90%;
+	display: inline-block;
+	font-weight: bold;
+	border-bottom: 1px solid deepskyblue;
+}
+
+.section ul li {
+	list-style: disc;
+	font-size: 16px;
+}
+
+.section-content {
+	margin: 5px 0px 0px 10px;
+	font-size: 18px;
+}
+
+.page-title {
+	border-bottom: 1px solid deepskyblue;
+	color: deepskyblue;
+}
+
+.btn {
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 30px 25px 0px 25px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	color: white;
+}
+
+.btn a {
+	text-decoration: none;
+}
+
+.login a {
+	color: white;
+}
+
+.login {
+	background-color: coral;
+}
+
+.open a {
+	color: black;
+}
+
+.open {
+	background-color: lightblue;
+}
+
+.next a {
+	color: white;
+}
+
+.next {
+	background-color: limegreen;
+	cursor: pointer;
+}
+
+.form-title {
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	font-size: 24px;
+	border-bottom: 1px solid deepskyblue;
+	color: deepskyblue;
+	text-align: center;
+}
+
+.form {
+	width: 90%;
+	max-width: 480px;
+	margin: 20px auto;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	background-color: #e8e8e8;
+}
+
+.form-row {
+	width: 300px;
+	margin: 30px auto 0px auto;
+}
+
+.input-title {
+	height: 30px;
+	padding-left: 10px;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.form-input-text {
+	height: 40px;
+	width: 280px;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.radiobtn {
+	margin: 0px 20px;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.radiobtn-text {
+	height: 30px;
+	width: 280px;
+	line-height: 30px;
+	font-size: 16px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.warning {
+	font-size: 12px;
+	padding-left: 10px;
+	color: orangered;
+}
+
+.form-btn {
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 0 65px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	color: white;
+	border: none;
+}
+
+.footer {
+	position: relative;
+	height: 70px;
+	width: 100%;
+	margin-top: 50px;
+	padding: 0;
+	background-color: lightblue;
+}

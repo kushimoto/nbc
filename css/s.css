@@ -1,0 +1,30 @@
+.card {
+	width: 300px;
+	display: inline-block;
+}
+
+.card-content {
+	width: 300px;
+}
+
+.section {
+}
+
+.section-title {
+	height: 30px;
+	margin: 10px 0px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.section ul li {
+	margin-left: 20px;
+}
+
+.page-title {
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	font-size: 24px;
+	text-align: center;
+}

@@ -1,0 +1,13 @@
+cd public_html/
+lcd ~/nbc/
+get *.html
+get *.php
+cd scripts
+lcd ~/nbc/scripts
+get *
+cd ../css
+lcd ~/nbc/css
+get *
+cd ../images
+lcd ~/nbc/images
+get *

@@ -1,0 +1,97 @@
+nav {
+	height: 70px;
+	width: 463px;
+	top: 0px;
+	right: 0px;
+}
+
+nav .nav-list {
+	height: 70px;
+	width: 100%;
+}
+
+nav .nav-list ul {
+	height: 70px;
+	width: 100%;
+	float: left;
+}
+
+nav .nav-list ul li {
+	transition: 0.5s;
+	height: 40px;
+	width: 100px;
+	line-height: 40px;
+	text-align: center;
+	margin: 15px 10px 15px 0px;
+	border: solid 1px white;
+	border-radius: 30px;
+	display: inline-block;
+}
+
+nav .nav-list ul li:hover {
+	background-color: white;
+}
+
+nav .nav-menu {
+	display: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 890px;
+	margin: 0 auto;
+}
+
+.card {
+	width: 200px;
+	display: inline-block;
+}
+
+.card-content {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.section {
+	margin: 20px;
+	padding: 40px;
+}
+
+.section-title {
+	width: 85%;
+	display: inline-block;
+	margin: 10px 0px;
+	font-size: 28px;
+	font-weight: bold;
+	border-bottom: 1px solid deepskyblue;
+}
+
+.section-subtitle {
+	width: 100%;
+	display: inline-block;
+	margin: 10px 0px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.section ul li {
+	list-style: disc;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.section-content {
+	margin: 25px 0px 0px 10px;
+	font-size: 24px;
+}
+
+.page-title {
+	height: 90px;
+	width: 100%;
+	line-height: 90px;
+	padding-left: 50px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid deepskyblue;
+	font-size: 28px;
+	color: deepskyblue;
+}

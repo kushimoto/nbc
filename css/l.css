@@ -88,6 +88,7 @@ nav .nav-menu {
 .page-title {
 	height: 90px;
 	width: 100%;
+	box-sizing: border-box;
 	line-height: 90px;
 	padding-left: 50px;
 	margin-bottom: 30px;

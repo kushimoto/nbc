@@ -13,32 +13,32 @@ require "header.php";
 			<div class="form-row">
 				<p class="input-title">姓</p>
 				<hr/>
-				<p class="form-input-check"><?= $_POST['family_name'] ?></p>
+				<p class="form-input-check"><?= htmlspecialchars($_POST['family_name'], ENT_QUOTES, 'UTF-8') ?></p>
 			</div>
 			<div class="form-row">
 				<p class="input-title">名<span class="warning">*</span></p>
 				<hr/>
-				<p class="form-input-check"><?= $_POST['first_name'] ?></p>
+				<p class="form-input-check"><?= htmlspecialchars($_POST['first_name'],ENT_QUOTES, 'UTF-8') ?></p>
 			</div>
 			<div class="form-row">
 				<p class="input-title">姓(ふりがな)<span class="warning">*</span></p>
 				<hr/>
-				<p class="form-input-check"><?= $_POST['family_name_kana'] ?></p>
+				<p class="form-input-check"><?= htmlspecialchars($_POST['family_name_kana'], ENT_QUOTES, 'UTF-8') ?></p>
 			</div>
 			<div class="form-row">
 				<p class="input-title">名(ふりがな)<span class="warning">*</span></p>
 				<hr/>
-				<p class="form-input-check"><?= $_POST['first_name_kana'] ?></p>
+				<p class="form-input-check"><?= htmlspecialchars($_POST['first_name_kana'], ENT_QUOTES, 'UTF-8') ?></p>
 			</div>
 			<div class="form-row">
 				<p class="input-title">メールアドレス<span class="warning">*</span></p>
 				<hr/>
-				<p class="form-input-check"><?= $_POST['email'] ?></p>
+				<p class="form-input-check"><?= htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8') ?></p>
 			</div>
 			<div class="form-row">
 				<p class="input-title">内容<span class="warning">*</span></p>
 				<hr/>
-				<p class="form-textarea-check"><?= $_POST['InqDet'] ?></p>
+				<p class="form-textarea-check"><?= htmlspecialchars($_POST['InqDet'], ENT_QUOTES, 'UTF-8') ?></p>
 			</div>
 			<div class="form-row">
 				<input type="submit" class="form-btn next" value="送信">

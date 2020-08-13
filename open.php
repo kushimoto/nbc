@@ -83,7 +83,7 @@
 					<input class="form-input-text" type="text" name="staition_name" placeholder="ヒント) 神戸市内">
 				</div>
 				<div class="form-row">
-					<input type="submit" class="form-btn next" value="確認">
+					<input type="submit" class="form-btn next" value="確認" onclick="swal('お詫び', '現在システムを構築中であるため口座開設を承ることができません。ご迷惑をお掛けし誠に申し訳ございません。', 'error')">
 				</div>
 			</form>
 		</div>

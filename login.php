@@ -4,15 +4,15 @@
 			<form id="open" method="POST" action="./open.php?opening_account=false&try=true">
 				<div class="form-row">
 					<p class="input-title">口座番号</p>
-					<input class="form-input-text" type="text" name="account-num" placeholder="例) 1234567890">
+					<input class="form-input-text" type="text" name="account-num">
 				</div>
 				<div class="form-row">
 					<p class="input-title">ログインパスワード</p>
-					<input class="form-input-text" type="password" name="loginpw" placeholder="10文字以上20文字以下" minlength="10" maxlength="20">
+					<input class="form-input-text" type="password" name="loginpw" minlength="10" maxlength="20">
 				</div>
 
 				<div class="form-row">
-					<input type="submit" class="form-btn next" value="試す">
+					<input type="submit" class="form-btn next" value="試す" onclick="swal('お詫び', '金融庁から預金封鎖実施の通達を受けた為、現在ログイン頂くことはできない状態となっております。ご迷惑お掛けしますことお詫び申し上げます。', 'error')">
 				</div>
 			</form>
 		</div>

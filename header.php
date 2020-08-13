@@ -32,7 +32,7 @@
 						<li><a href="./login.php">ログイン</a></li>
 						<li><a href="./open.php">口座開設</a></li>
 						<li><a href="./item.php">金融商品</a></li>
-						<li><a href="./branches.php">店舗一覧</a></li>
+						<li><a href="./tenken.html">自己点検</a></li>
 					</ul>
 				</div>
 			</nav>

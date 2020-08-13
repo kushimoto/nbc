@@ -220,7 +220,6 @@ nav {
 
 .input-title {
 	height: 30px;
-	padding-left: 10px;
 	line-height: 30px;
 	font-size: 18px;
 	font-weight: bold;
@@ -234,6 +233,12 @@ nav {
 	border-radius: 5px;
 }
 
+.form-input-check {
+	height: 40px;
+	width: 280px;
+	font-size: 22px;
+}
+
 .form-textarea {
 	height: 120px;
 	width: 280px;
@@ -241,7 +246,43 @@ nav {
 	border: 1px solid black;
 	border-radius: 5px;
 	resize: none;
+
 }
+
+.form-textarea-check {
+	height: 120px;
+	width: 280px;
+	font-size: 22px;
+}
+
+.form-success-title {
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.form-success-left {
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.form-success-right {
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.form-success-msg {
+	width: 300px;
+	height: 300px;
+	margin: 30px auto 0px auto;
+	font-size: 18px;
+}
+
 .radiobtn {
 	margin: 0px 20px;
 	height: 30px;
